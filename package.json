@@ -1,0 +1,22 @@
+{
+    "name": "regloginauthen",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "dev": "nodemon app.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "module",
+    "devDependencies": {
+        "nodemon": "^2.0.21"
+    },
+    "dependencies": {
+        "bcrypt": "^5.1.0",
+        "ejs": "^3.1.8",
+        "express": "^5.0.0-alpha.8",
+        "mongoose": "^7.0.1"
+    }
+}
